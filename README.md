@@ -19,5 +19,5 @@ contoh: Ant Design, Bootstrap, Tailwind, Material UI dan lain-lain sesuai prefer
 Berikut cara pengerjaan dan pengumpulan tugas:
 - Buatlah repository untuk aplikasi catatan ini pada akun github kalian (repository harus public).
 - Kerjakan requirement di atas pada branch main.
-- Ketika kalian telah selesai mengerjakan requirement, lakukan `git checkout -b nama_aplikasi_catatan_v1`.
+- Ketika kalian telah selesai mengerjakan requirement, lakukan `git checkout -b nama_aplikasi_catatan_v1` dan `git push origin nama_aplikasi_catatan_v1`.
 - Terakhir, isi google form yang akan diberikan oleh mentor untuk pengumpulan tugas ini. (kalian akan diminta mengumpulkan link repo dan branch aplikasi catatan v1)
