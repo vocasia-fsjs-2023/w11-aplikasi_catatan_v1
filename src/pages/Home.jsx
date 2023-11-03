@@ -30,7 +30,7 @@ const Home = () => {
     ];
 
     return (
-        <div className="w-full min-h-screen p-20 bg-slate-800">
+        <div className="w-full min-h-screen p-5 bg-slate-800">
             <div className="max-w-5xl mx-auto">
                 <div className="p-10">
                     <h1 className="text-3xl font-bold text-slate-200">
