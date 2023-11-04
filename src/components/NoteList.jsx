@@ -19,6 +19,11 @@ import {
 
 const NoteList = ({ notes }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        alert("submitted");
+        onClose();
+    };
 
     return (
         <div className="mt-5">
@@ -78,7 +83,7 @@ const NoteList = ({ notes }) => {
                         >
                             Close
                         </Button>
-                        <Button colorScheme="green">Save</Button>
+                        <Button colorScheme="green" onClick={handleSubmit}>Save</Button>
                     </ModalFooter>
                 </ModalContent>
             </Modal>
